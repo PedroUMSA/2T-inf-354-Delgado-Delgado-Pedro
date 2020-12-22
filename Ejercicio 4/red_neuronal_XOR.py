@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 import numpy as np
  
 ####
@@ -7,16 +5,7 @@ import numpy as np
 # los valores de la tabla XOR
 ####
  
-##
-# Una red neuronal al final son:
-#   * Una capa de inputs
-#   * Las conexiones de TODOS LOS INPUTS con TODOS LOS OUTPUTS ( W en la imagen )
-#   * Una capa de outputs
-# La red neuronal se encarga de computar los INPUTS con las CONEXIONES
-# para predecir los OUTPUTS
-# Para que sea realmente funcional, necesitaremos saber
-# cuanto afecta cada conexión al output
-##
+
  
 ##Primera parte, generemos un input que sea una matriz
 ## Matriz de 2x4
